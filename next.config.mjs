@@ -7,16 +7,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ['localhost'],
-    remotePatterns: [
-      {
-        protocol: 'http',
-        hostname: 'localhost',
-        port: '3000',
-        pathname: '/**',
-      },
-    ],
+    unoptimized: true,
   },
+  output: 'export',
 }
 
 export default nextConfig
