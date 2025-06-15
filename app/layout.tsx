@@ -3,9 +3,8 @@ import './globals.css'
 import MouseTracker from './components/mouse-tracker'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'Teena Makeovers',
   description: 'Created with v0',
-  generator: 'v0.dev',
 }
 
 export default function RootLayout({
